@@ -1,75 +1,65 @@
-.container{
+.container {
   top: 50%;
   left: 50%;
-  width: 300px; /* props.radius */
-  height: 300px; /* props.radius */
   display: flex;
-  flex-direction: column;
   position: absolute;
-  transform: translate(-50%,-50%);
+  flex-direction: column;
+  transform: translate(-50%, -50%);
 }
 
-.clockCircle{
+.clockCircle {
   width: 100%;
   height: 100%;
   border-radius: 50%;
   position: absolute;
-  background-color: gainsboro; /** props.rimColor **/
 }
 
-.ticks{
+.ticks {
   width: 2px;
   position: absolute;
   transform-origin: top;
-  background-color: black; /** props.tickColor **/
 }
 
-.majorTicks{
+.majorTicks {
   height: 8%;
 }
 
-.minorTicks{
+.minorTicks {
   height: 4%;
 }
 
-.clockTextCircle{
+.clockTextCircle {
   top: 11%;
   left: 11%;
   width: 78%;
   height: 78%;
   position: absolute;
   border-radius: 50%;
-  background-color: ghostwhite;
 }
 
-.clockText{
-  color: black; /** props.fontColor **/
-  font-size: 16px; /** props.fontSize **/
+.clockText {
   position: absolute;
   text-align: center;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
-.hands{
+.hands {
   left: 50%;
   width: 2px;
   position: absolute;
   transform-origin: bottom;
 }
 
-.secondHand{
+.secondHand {
   height: 50%;
-  background-color: blueviolet; /** props.secondHandColor **/
 }
 
-.minuteHand{
+.minuteHand {
   top: 10%;
   height: 40%;
-  background-color: greenyellow; /** props.minuteHandColor **/
 }
 
-.hourHand{
+.hourHand {
   top: 20%;
   height: 30%;
-  background-color: grey; /** props.hourHandColor **/
 }
