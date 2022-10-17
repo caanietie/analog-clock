@@ -1,6 +1,17 @@
 {
-  "name": "my_app",
+  "author": "Anietie",
+  "name": "AnalogClock",
   "version": "0.1.0",
+  "description": "Simulation of the analog clock",
+  "sideEffects": false,
+  "main": "src/index.js",
+  "license": "MIT",
+  "files": ["public", "src", "README.md"],
+  "repository": "https://github.com/caanietie/analogClock",
+  "keywords": [
+		"clock", "analog", "analogclock",
+		"Anietie", "caanietie", "analog clock", "react"
+	],
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

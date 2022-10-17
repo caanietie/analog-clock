@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  top: 50%;
+  left: 50%;
+  width: 300px; /* props.radius */
+  height: 300px; /* props.radius */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
 }
 
-.App-link {
-  color: #61dafb;
+.clockCircle{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  background-color: gainsboro; /** props.rimColor **/
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ticks{
+  width: 2px;
+  position: absolute;
+  transform-origin: top;
+  background-color: black; /** props.tickColor **/
+}
+
+.majorTicks{
+  height: 8%;
+}
+
+.minorTicks{
+  height: 4%;
+}
+
+.clockTextCircle{
+  top: 11%;
+  left: 11%;
+  width: 78%;
+  height: 78%;
+  position: absolute;
+  border-radius: 50%;
+  background-color: ghostwhite;
+}
+
+.clockText{
+  color: black; /** props.fontColor **/
+  font-size: 16px; /** props.fontSize **/
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%,-50%);
+}
+
+.hands{
+  left: 50%;
+  width: 2px;
+  position: absolute;
+  transform-origin: bottom;
+}
+
+.secondHand{
+  height: 50%;
+  background-color: blueviolet; /** props.secondHandColor **/
+}
+
+.minuteHand{
+  top: 10%;
+  height: 40%;
+  background-color: greenyellow; /** props.minuteHandColor **/
+}
+
+.hourHand{
+  top: 20%;
+  height: 30%;
+  background-color: grey; /** props.hourHandColor **/
 }
