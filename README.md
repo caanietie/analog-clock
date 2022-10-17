@@ -1,4 +1,4 @@
-# AnalogClock Web App
+# AnalogClock App
 
 This project simultates the working of the analog clock
 
