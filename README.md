@@ -16,7 +16,7 @@ This project simulates the working of the analog clock
 | **hourHandColor** | *Color* | This property indicates the color of the hour hand of the clock |
 | **minorCallibrations** | *boolean* | This property indicates the presence of minor calibrations of the clock |
 | **majorCallibrations** | *boolean* | This property indicates the presence of major calibrations of the clock |
-| **fillColor** | *string* | This propertyindicates the interior color of the clock|
+| **fillColor** | *string* | This property indicates the interior color of the clock|
 
 
 ### How to use
