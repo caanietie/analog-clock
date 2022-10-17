@@ -27,8 +27,8 @@ This project simulates the working of the analog clock
 **fillColor:: string** This propertyindicates the interior color of the clock
 
 
-Using ECMA syntax
 ### How to use
+Using ECMA syntax
 ``` javascript
 import AnalogClock from "analogClock";
 
